@@ -7,4 +7,8 @@ def add(x,y):
   
   
 def mutiply(x,y):
-  return x*y
+  if (type(x) == int and type(y) == int):
+    return x*y
+  else:
+    print("Need integers inputs for this function also")
+    return None
