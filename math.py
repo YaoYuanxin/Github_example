@@ -1,6 +1,6 @@
 def add(x,y):
-  return None
+  return x + y
   
   
 def mutiply(x,y):
-  return None
+  return x*y
